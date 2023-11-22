@@ -1,0 +1,139 @@
+.header {
+    width: 1000px;
+    height: 200px;
+    background-color: pink;
+}
+.header-top {
+    width: 1000px;
+    height: 50px;
+    background-color: rgb(250, 167, 181);
+}
+
+.htop-left {
+    width: 470px;
+    height: 20px;
+    background-color: rgb(235, 235, 235);
+    float: left;
+    padding: 15px;
+}
+
+.htop-right {
+    width: 480px;
+    height: 30px;
+    float: right;
+    background-color: rgb(255, 58, 91);
+    text-align: right;
+    padding: 10px;
+}
+
+.htop-right a {
+    text-decoration: none;
+}
+
+.header-content {
+    width: 1000px;
+    height: 100px;
+    background-color: blanchedalmond;
+    
+}
+
+.header-content .logo {
+    height: 100px;
+    width: 250px;
+    background-color: aquamarine;
+    float: left;
+}
+
+.header-content .search {
+    height: 100px;
+    width: 500px;
+    background-color: rgb(4, 255, 171);
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search input {
+    height: 30px;
+    background-color: #fff2f4;
+}
+
+.header-content .contact {
+    height: 100px;
+    width: 250px;
+    background-color: rgb(128, 245, 206);
+    float: left;
+}
+
+.contact .hot-line {
+    height: 90px;
+    width: 170px;
+    font-size: 18px;
+    background-color: aqua;
+    float: left;
+    /* margin: 32px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.hot-line .cot-1 {
+    height: 70px;
+    width: 70px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hot-line .cot-2 {
+    height: 70px;
+    width: 120px;
+    background-color: rgb(255, 255, 255);
+}
+
+.contact .cart {
+    height: 100px;
+    width: 70px;
+    background-color: rgb(144, 250, 250);
+    float: left;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 177px;
+    margin-top: -64px; */
+}
+
+.cart .showcart {
+    list-style: none;
+    align-items: center;
+    display: inline-flex;
+    border: 1px solid rgb(153, 54, 54);
+}
+
+
+.header-menu {
+    width: 1000px;
+    height:50px;
+    background-color: greenyellow;
+    display: flex;
+}
+
+.header-menu ul {
+    display: inline-flex;
+    list-style: none;
+    align-items: center;
+}
+
+.header-menu ul li {
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+
+
